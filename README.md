@@ -27,7 +27,7 @@ GitHub Copilot CLI 與 Claude Code 共用的兩行狀態列：
 ### 方法二：自己安裝
 
 ```sh
-git clone <this-repo-url> ai-statusline   # 或解壓縮 zip
+git clone https://github.com/tosh21421/ai-statusline.git   # 或解壓縮 zip
 cd ai-statusline
 node install.mjs --dry-run   # 先預覽會改什麼
 node install.mjs             # 自動偵測 Copilot / Claude 並安裝
